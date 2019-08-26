@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local("sans-serif");
+    unicode-range: U+30-39;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0-2f, U+40-10FFFF;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+    unicode-range: U+0-2f, U+40-10FFFF;
+}
+
+@font-face {
+font-family: 'ElegantIcon';
+src: url('../fonts/ElegantIcons.woff');
+}
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ecf0f1;
+    --main: #1abc9c;
+    --secondary: #2ecc71;
+    --main-gradient: linear-gradient(to bottom right, #1abc9c, #2ecc71);
+    --black: #2c3e50;
+    --gray :#7f8c8d;
+    --gray-light :rgba(127, 140, 141, .3);
+
+    --shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    --shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    --shadow-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    
+    --shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    --shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+    --transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+@keyframes upAndDown {
+    0% { transform: translateY(0px) }
+    100% { transform: translateY(3px) }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: var(--main-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    height: 100%;
+}
+
+.main {
+    background-color: var(--white);
+    background-position: fixed;
+    max-width: 1240px;
+    margin: 24px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: var(--shadow-1);
+    min-height: calc(100vh - 48px);
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: var(--black);
+}
+
+.btn {
+    background-image: linear-gradient(var(--secondary), var(--secondary));
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    color: var(--white);
+    padding: 10px 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: var(--shadow-2);
+    transform: scale(1.01);
+    animation: upAndDown 1s infinite alternate;
+}
+
+.btn::before, .btn::after {
+    display: none;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    background: var(--main-gradient);
+    bottom: -2px;
+    left: 0;
+    transition: ease-in-out 200ms;
+    opacity: 1;
+}
+
+.link:hover::after {
+    width: 100%;
+    animation: upAndDown 1s infinite alternate;
+}
+
+.link::before{
+    font-family: 'ElegantIcon';
+    font-size: .8em;
+    letter-spacing: .2em;
+}
+
+.link[href^="http"]::before{
+    content: "\e02b";
+}
+
+.link[href*="maps"]::before{
+    content: "\e01d" !important;
+    letter-spacing: .5em;
+}
+
+.link[href^="tel"]::before{
+    content: "\77";
+    letter-spacing: .5em;
+}
+
+.link[href^="mailto"]::before{
+    content: "\e010";
+    letter-spacing: .5em;
+}
+
+
+@media (max-width: 820px){
+    .main {
+        margin: 0;
+        border-radius: 0;
+        min-height: 100vh;
+    }
+}

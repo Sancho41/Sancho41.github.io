@@ -1,0 +1,198 @@
+.main {
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+header {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+header h1 {
+    order: 0;
+    border-bottom: 2px solid var(--main);
+}
+
+header a {
+    position: absolute;
+    left: 1em;
+    font-size: 3em;
+    font-family: 'ElegantIcon';
+}
+
+header a:hover {
+    animation: upAndDown 2s infinite alternate;
+    text-shadow: var(--shadow-1)
+}
+
+section {
+    margin-top: 50px;
+}
+
+section h1 {
+    border-bottom: 1px solid var(--main);
+}
+
+.card--container {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 1.5em;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: var(--transition);
+    border: 1px solid var(--gray-light);
+    background-color: white;
+}
+
+.card::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-2);
+    transform: scale(1.01);
+}
+
+.card img {
+    margin-top: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h2{
+    border-bottom: 1px solid var(--main);
+}
+
+
+.modal {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    background: rgba(0, 0, 0, .6);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    padding: 5px;
+}
+
+.show {
+    opacity: 1;
+}
+
+.modal--content {
+    background: white;
+    padding: 1rem;
+    border: 1px solid var(--gray-light);
+    border-radius: 2px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.modal--header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal--header h1 {
+    border-bottom: 2px solid var(--main);
+}
+
+.modal--header p {
+    font-family: 'ElegantIcon';
+    position: absolute;
+    left: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.active::before {
+    width: 100% !important;
+}
+
+.page {
+    display: none;
+    padding: 10px;
+}
+
+.page-active {
+    display: block;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.info h3{
+    min-width: 25%;
+    text-align: right;
+    margin-right: 20px;
+    align-self: flex-start
+}
+
+.info h3::after {
+    content: ':';
+}
+
+.info .btn {
+    margin: 0 auto;
+}
+
+@media (max-width: 820px){
+    header a {
+        left: 0;
+    }
+
+    .info li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info h3{
+        text-align: left;
+    }
+}
