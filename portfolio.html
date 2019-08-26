@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Gabriel Sancho</title>
+
+    <link rel="icon" href="favicon.ico" />
+
+    <meta property="og:title" content="Gabriel Sancho - Desenvolvedor" />
+    <meta
+      property="og:description"
+      content="Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação..."
+    />
+
+    <meta
+      name="description"
+      content="Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação..."
+    />
+
+    <meta property="og:url" content="http://gabrielsancho.net/" />
+    <meta
+      property="og:image"
+      content="http://gabrielsancho.net/assets/img/profile.jpg"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+
+    <meta name="theme-color" content="#1abc9c" />
+  </head>
+
+  <body>
+    <div id="app" class="main">
+      <header>
+        <h1>Portfólio</h1>
+        <a class="icon" href="/">&#x23;</a>
+      </header>
+
+      <section v-for="(section, sectionId) in data">
+        <h1>{{ section.title }}:</h1>
+        <small>{{ section.description }}</small>
+        <div class="card--container">
+          <div
+            @click="openModal(`${sectionId}-${cardId}`)"
+            v-for="(card, cardId) in section.items"
+            class="card card--modal"
+          >
+            <h2>{{ card.title }}</h2>
+            <small>{{ card.description }}</small>
+            <div class="img-container">
+              <img :src="card.mainPicture" alt="" />
+            </div>
+
+            <div
+              :id="`modal-${sectionId}-${cardId}`"
+              class="modal--template"
+              style="display: none"
+            >
+              <div class="modal close">
+                <div class="modal--content">
+                  <div class="modal--header">
+                    <p class="close">&#x4d;</p>
+                    <h1>{{ card.title }}</h1>
+                  </div>
+                  <div class="modal--body">
+                    <div class="info page-active">
+                      <ul>
+                        <li v-for="(info, index) in card.info">
+                          <h3>{{ index }}</h3>
+                          <p>{{ info }}</p>
+                        </li>
+                      </ul>
+
+                      <div class="modal--footer">
+                        <a
+                          v-if="card.href"
+                          class="btn"
+                          target="_blank"
+                          rel="noopener"
+                          :href="card.href"
+                          >Acessar</a
+                        >
+                        <a
+                          v-if="card.repo"
+                          class="btn"
+                          target="_blank"
+                          :href="card.repo"
+                          >Repositório</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/axios.js"></script>
+
+    <script>
+      const vm = new Vue({
+        el: "#app",
+        data() {
+          return {
+            data: {},
+          };
+        },
+        created() {
+          const main = document.querySelector(".main");
+          main.classList.add("show");
+
+          axios.get("portfolio.json").then((e) => {
+            this.data = e.data;
+          });
+        },
+
+        methods: {
+          openModal(id) {
+            let modal = document.querySelector(`#modal-${id}`).childNodes[0];
+            modal = modal.cloneNode(true);
+            modal.id = `modal-open-${id}`;
+            document.querySelector("body").appendChild(modal);
+            setTimeout(() => {
+              modal.classList.add("show");
+              modal.addEventListener("click", this.closeModal);
+            }, 100);
+          },
+
+          closeModal(e) {
+            if (e.target.classList.contains("close")) {
+              let modalDone = document.querySelectorAll(".modal");
+              modalDone.forEach((el) => {
+                if (el.classList.contains("show")) {
+                  el.classList.remove("show");
+                  setTimeout(() => {
+                    el.remove();
+                  }, 100);
+                }
+              });
+            }
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
