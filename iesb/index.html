@@ -4,204 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<title>Calculadora IESB</title>
+	
+	<style>
+		*, *::before, *::after {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			width: 100%;
+			height: 100vh;
+			background: #eee;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.container {
+			background: rgb(237, 34, 65);
+			color: #eee;
+		}
+	
+		.toggle input {
+			display: none;
+		}
+
+		.toggle label{
+			width: 48px;
+			height: 26px;
+			background: #8D909B;
+			position: relative;
+			display: block;
+			border-radius: 16px;
+			cursor: pointer;
+			transition: all ease-in-out 300ms;
+		}
+
+		.toggle label::before {
+			content:'';
+			background-color: #EEF0F2;
+			position: absolute;
+			display: block;
+			margin: 2px;
+			width: 22px;
+			height: 22px;
+			border-radius: 50%;
+			transition: all ease-in-out 300ms;
+			right: 100%;
+			transform: translateX(calc(100% + 4px))
+		}
+
+		.toggle input:checked ~ label{
+			background: #08A045;
+		}
+
+		.toggle input:checked ~ label::before{
+			right: 0;
+			transform: translateX(0)
+		}
+	</style>
+
 </head>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-*, *::before, *::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: black;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-
-.container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background: #262626;
-  border-radius: 2px;
-  padding: 1rem;
-  color: #ecf0f1;
-  width: 100%;
-  max-width: 500px;
-}
-
-.box {
-  display: flex;
-}
-
-.calc, 
-.res{
-  width: 50%;
-  text-align: left;
-  margin: 1rem;
-}
-
-.res {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around
-}
-
-.res .nota {
-  display: flex;
-  flex-direction: column;
-}
-
-.nota strong {
-  align-self: center;
-  font-size: 2rem
-}
-
-.input-box {
-  margin: 1rem 0;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#hasedad {
-  width: auto;
-}
-
-.input-box input {
-  
-  width: 100%;
-  background: none;
-  border: 1px solid #ecf0f1;
-  border-radius: 3px;
-  margin: 5px 0;
-  padding: 5px;
-  font-family: 'Titillium Web', sans-serif;
-  color: #ecf0f1;
-}
-</style>
-
 <body>
-    <div id="app" class="container">
-        <h1>Calculadora IESB:</h1>
-        <div class="box">
-          <div class="calc">
-            
-            <div class="input-box">
-              <label for="p1">Prova 1:</label>
-              <input v-model="p1" id="p1" type="number" step="any">
-            </div>
-            
-            <div class="input-box">
-              <label for="p2">Prova 2:</label>
-              <input v-model="p2" id="p2" type="number" step="any">
-            </div>
-            
-            <div class="input-box" style="flex-direction: row;">
-              <label for="hasedad">Possui EDAD: </label>
-              <input v-model="hasEdad" id="hasedad" type="checkbox">
-            </div>
-            
-            <div class="input-box">
-              <label for="edad">EDAD: </label>
-              <input :disabled="!hasEdad" v-model="edad" id="edad" type="number" step="any">
-            </div>
-            
-          </div>
-          
-          <div class="res">
-            <h3>Notas necessárias:</h3>
-            <div class="nota">
-              <p>Prova 2: </p>
-              <strong>{{ calcP2 }}</strong>
-            </div>
-            <div class="nota">
-              <p>Prova 3: </p>
-              <strong>{{ calcP3 }}</strong><br>
-              <p>Substituindo a prova {{ subs }}</p>
-            </div>
-          </div>
-        </div>
-        <p>Nota Final: {{ res }}</p>
-        <p v-if="res > 10">Pare de sonhar e coloque sua nota verdadeira.</p>
-        <p v-else-if="res >= 5">Aprovado</p>
-        <p v-else>Reprovado</p>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <div id="app">
 
-      <script>
-          var vm = new Vue({
+		<div class="container">
+			<h1>Calculadora IESB:</h1>
+
+			<div class="col">
+				<h2>Digite aqui as suas notas:</h2>
+				<div class="input-group">
+					<label for="p1">Nota P1:</label>
+					<input type="number" min="0" max="10" id="p1" v-model="p1">
+				</div>
+				<div class="input-group">
+					<label for="p2">Nota P2:</label>
+					<input type="number" min="0" max="10" id="p2" v-model="p2">
+				</div>
+
+				<div class="has-edad">
+					<h2>EDAD:</h2>
+					<div class="toggle">
+						<input type="checkbox" id="checkbox" v-model="hasEdad">
+						<label for="checkbox"></label>
+					</div>
+				</div>
+
+				<div v-if="hasEdad" class="input-group">
+					<label for="edad">Nota EDAD:</label>
+					<input type="number" min="0" max="10" id="edad" v-model="edad">
+				</div>
+			</div>
+
+			<div class="col">
+				<h1>Resultados:</h1>
+
+				<div v-if="p2 == 0" class="res">
+					<h2>Nota necessária na P2 para ser aprovado: </h2>
+					<strong>{{ calcP2 }}</strong>
+					<small>Você não pode fazer a P3 caso tire 0 na P2!</small>
+				</div>
+
+				<div v-else class="res">
+					<h2>Nota necessária na P3 para ser aprovado: </h2>
+					<strong>{{ calcP3 }}</strong>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script>
+		var vm = new Vue({
             el: "#app",
             data () {
                 return {
-                p1: 0,
-                p2: 0,
-                edad: 0,
-                hasEdad: false,
+					p1: 0,
+					p2: 0,
+					edad: 0,
+					hasEdad: false,
                 }
             },
             computed: {
                 calcP2 () {
-                let nota = 0
-                
-                nota = ((this.p1 * .4 * -1) + 5) / .6
-                if (this.hasEdad)
-                    nota = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
-                
-                if (nota >= 0)
-                    return parseFloat(nota.toFixed(2));
-                return 0
+					let nota = 0
+					
+					nota = ((this.p1 * .4 * -1) + 5) / .6
+					if (this.hasEdad)
+						nota = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
+					
+					if (nota >= 0)
+						return parseFloat(nota.toFixed(2));
+					return 0
                 },
                 calcP3 () {
-                let nota1, nota2, nota;
-                
-                nota1 = ((this.p1 * .4 * -1) + 5) / .6
-                if (this.hasEdad)
-                    nota1 = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
-                
-                
-                nota2 = ((this.p2 * .6 * -1) + 5) / .4
-                if (this.hasEdad)
-                    nota2 = ((this.p2 * .57 * -1) + 5 + (this.edad * .03 * -1)) / .4
-                
-                nota = nota1 > nota2 ? parseFloat(nota1.toFixed(2)) : parseFloat(nota2.toFixed(2))
-                if (nota1 > 5 || nota2 > 5)
-                    nota = nota1 < nota2 ? parseFloat(nota1.toFixed(2)) : parseFloat(nota2.toFixed(2))
-                
-                return nota >= 0 ? nota : 0;
+					let nota1, nota2, nota;
+					
+					nota1 = ((this.p1 * .4 * -1) + 5) / .6
+					if (this.hasEdad)
+						nota1 = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
+					
+					
+					nota2 = ((this.p2 * .6 * -1) + 5) / .4
+					if (this.hasEdad)
+						nota2 = ((this.p2 * .57 * -1) + 5 + (this.edad * .03 * -1)) / .4
+					
+					nota = nota1 > nota2 ? parseFloat(nota1.toFixed(2)) : parseFloat(nota2.toFixed(2))
+					if (nota1 > 5 || nota2 > 5)
+						nota = nota1 < nota2 ? parseFloat(nota1.toFixed(2)) : parseFloat(nota2.toFixed(2))
+					
+					return nota >= 0 ? nota : 0;
                 },
                 subs () {
-                let nota1, nota2;
-                
-                nota1 = ((this.p1 * .4 * -1) + 5) / .6
-                if (this.hasEdad)
-                    nota1 = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
-                
-                
-                nota2 = ((this.p2 * .6 * -1) + 5) / .4
-                if (this.hasEdad)
-                    nota2 = ((this.p2 * .57 * -1) + 5 + (this.edad * .03 * -1)) / .4
-                
-                
-                if (nota1 > 5 || nota2 > 5)
-                    return nota1 < nota2 ? "2" : "1"
-                return nota1 > nota2 ? "2" : "1"
+					let nota1, nota2;
+					
+					nota1 = ((this.p1 * .4 * -1) + 5) / .6
+					if (this.hasEdad)
+						nota1 = ((this.p1 * .4 * -1) + 5 + (this.edad * .03 * -1)) / .57
+					
+					
+					nota2 = ((this.p2 * .6 * -1) + 5) / .4
+					if (this.hasEdad)
+						nota2 = ((this.p2 * .57 * -1) + 5 + (this.edad * .03 * -1)) / .4
+					
+					
+					if (nota1 > 5 || nota2 > 5)
+						return nota1 < nota2 ? "2" : "1"
+					return nota1 > nota2 ? "2" : "1"
                 },
                 res () {
-                let nota = (this.p1 * .4) + (this.p2 * .6);
-                if (this.hasEdad)
-                    nota = (this.p1 * .4) + (this.p2 * .57) + (this.edad * .03);
-                
-                return parseFloat(nota.toFixed(2));
+					let nota = (this.p1 * .4) + (this.p2 * .6);
+					if (this.hasEdad)
+						nota = (this.p1 * .4) + (this.p2 * .57) + (this.edad * .03);
+					
+					return parseFloat(nota.toFixed(2));
                 
                 }
             }
-            })
-      </script>
+		})
+	</script>
 </body>
 </html>
