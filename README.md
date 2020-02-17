@@ -5,6 +5,7 @@
 **Celular:** (61) 9 8331 - 6388<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
 **GitHub:** [Sancho41](https://github.com/Sancho41)<br>
+
 ___
 
 ## Perfil 
@@ -51,7 +52,9 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
     - 2019/1° Semestre – Maratona regional (1° lugar entre as equipes do IESB, classificado para a etapa nacional).
 
 - Introdução a programação de Arduinos (IESB) .
-  
+
+---  
+
 ## Habilidades e interesses pessoais
 ### Projetos Paralelos:
   - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.net/) contendo alguns projetos de criação própria;
