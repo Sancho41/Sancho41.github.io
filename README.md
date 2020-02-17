@@ -54,7 +54,7 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
   
 ## Habilidades e interesses pessoais
 ### Projetos Paralelos:
-  - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://sancho41.github.io/) contendo alguns projetos de criação própria;
+  - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.net/) contendo alguns projetos de criação própria;
 ### Habilidades:
   - Desenvolvimento WEB avançado (HTML, CSS3, Javascript), criação de layouts totalmente responsivo utilizando ou não frameworks de estilização;
   - Desenvolvimento básico de API’s Restfull utilizando as frameworks Django e Django Rest em python 3.7;
