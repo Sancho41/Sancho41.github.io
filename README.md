@@ -1,4 +1,5 @@
 # Gabriel Sancho Cavalcanti dos Santos
+<img src="https://avatars.githubusercontent.com/Sancho41" style="float: right; width: 130px"></img>
 **Idade:** 21 anos<br>
 **Cidade:** Riacho Fundo 1<br>
 **Email:** gabriel.sancho13@gmail.com<br>
