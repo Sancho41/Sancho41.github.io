@@ -10,8 +10,8 @@
                     "Descrição": "Um site web feito puramente com CSS3 e HTML5, com uma única página. Criada no modelo de Landing Page para a venda de um produto",
                     "Objetivo": "O objetivo desse projeto é apenas demonstrativo, mostrando minhas habilidades com CSS3 e HTML5 sem o uso de bibliotecas ou frameworks na criação de páginas com elementos simples totalmente responsivo"
                 },
-                "href": "/projects/landing_page_1",
-                "mainPicture": "/projects/landing_page_1/main.webp"
+                "href": "https://Sancho41.github.io/landing_pages/landing_page_1/",
+                "mainPicture": "https://Sancho41.github.io/landing_pages/landing_page_1/main.webp"
             }
         ]
     }
