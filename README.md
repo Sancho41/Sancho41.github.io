@@ -20,7 +20,7 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
 
 ## Formação acadêmica
 - **2015/07 – 2017/07 | Escola Técnica de Brasília (ETB) – Técnico em informática**
-  - Cursada de maneira prática métodos de criação e documentação de projetos, manutenção de microcomputadores, lógica e desenvolvimento de algorítimos orientados a objetos e estrutura de lógica MVC (Modelo Visão e Controle).
+    - Cursada de maneira prática métodos de criação e documentação de projetos, manutenção de microcomputadores, lógica e desenvolvimento de algorítimos orientados a objetos e estrutura de lógica MVC (Modelo Visão e Controle).
 
 - **2017/01 – 2018/01 | Alura – Plataforma de cursos online**
     - Cursadas algumas tecnologias de aplicações práticas para o desenvolvimento pessoal e para aumentar conhecimentos na área de interesse;
