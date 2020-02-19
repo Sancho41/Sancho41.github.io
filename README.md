@@ -1,4 +1,6 @@
+[Imprima este currículo](https://Sancho41.github.io/curriculum.html#print)
 # Gabriel Sancho Cavalcanti dos Santos
+
 <img src="https://avatars.githubusercontent.com/Sancho41" align="right" width="150"></img>
 **Idade:** 21 anos<br>
 **Cidade:** Riacho Fundo 1<br>
@@ -66,3 +68,5 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
   - Conhecimento básico de C++.
 ### Idiomas:
   - Formado em inglês pela instituição Inglês Athos.
+
+<center><img src="assets/img/qrcode.png" width="150"></img></center>
