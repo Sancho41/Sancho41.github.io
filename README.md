@@ -69,4 +69,4 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
 ### Idiomas:
   - Formado em inglês pela instituição Inglês Athos.
 
-<center><img src="assets/img/qrcode.png" width="150"></img></center>
+<img src="assets/img/qrcode.png" width="150"></img>
