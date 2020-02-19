@@ -1,7 +1,7 @@
 [Imprima este currículo](https://Sancho41.github.io/curriculum.html#print)
 # Gabriel Sancho Cavalcanti dos Santos
 
-<img src="https://avatars.githubusercontent.com/Sancho41" align="right" width="150"></img>
+<img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
 **Idade:** 21 anos<br>
 **Cidade:** Riacho Fundo 1<br>
 **Email:** gabriel.sancho13@gmail.com<br>
