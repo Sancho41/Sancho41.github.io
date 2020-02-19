@@ -66,7 +66,9 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
   - Desenvolvimento básico de API’s Restfull utilizando as frameworks Django e Django Rest em python 3.7;
   - Desenvolvimento de aplicações web em PHP utilizando a framework Laravel em conjunto com a framework de frontend Vue.js;
   - Conhecimento básico de C++.
+  
+<img src="assets/img/qrcode.png" width="150" align="right"></img>
 ### Idiomas:
   - Formado em inglês pela instituição Inglês Athos.
 
-<img src="assets/img/qrcode.png" width="150" align="right"></img>
+
