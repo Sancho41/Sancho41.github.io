@@ -80,6 +80,7 @@ a {
     border-radius: 3px;
     box-shadow: var(--shadow-1);
     transition: var(--transition);
+    margin: 5px;
 }
 
 .btn:hover {

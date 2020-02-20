@@ -1,14 +1,25 @@
 @import 'variables.css';
+
+* {
+  /* outline: 1px solid red; */
+}
+
 body {
   font-family: "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-size: 1rem;
+  background: var(--main-gradient);
+  margin: 20px;
 }
 
 #print-view {
-  width: 100%;
-  max-width: 980px;
+  max-width: 210mm;
   margin: 0 auto;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding-bottom: 80px;
+  background-color: white;
 }
 
 h1,
@@ -16,6 +27,7 @@ h2 {
   padding-bottom: 0.3em;
   border-bottom: 1px solid #eaecef;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 
 hr {
@@ -30,10 +42,18 @@ img {
   width: 9.5em;
 }
 
-.btn {
+.fixed {
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  margin: 5px;
   background-image: linear-gradient(var(--secondary), var(--secondary));
   background-color: rgba(0, 0, 0, 0);
   background-blend-mode: multiply;
@@ -64,7 +84,18 @@ a[href*='print'] {
   display: none;
 }
 
+@media (max-width: 210mm) {
+  body {
+    margin: 0;
+    margin: 0;
+  }
+}
+
 @media print {
+  html {
+    margin: 0px;
+  }
+
   @page {
     size: auto;
     margin: 0mm;
@@ -73,10 +104,14 @@ a[href*='print'] {
   body {
     font-size: .85rem;
     margin: 10mm 15mm 10mm 15mm;
+    background: none;
   }
 
-  html {
-    margin: 0px;
+  #print-view {
+    border-radius: none;
+    padding: 0;
+    box-shadow: none;
+    padding-bottom: 0;
   }
 
   a {
@@ -84,8 +119,9 @@ a[href*='print'] {
     color: black
   }
 
-  .btn {
+  .fixed {
     display: none !important;
   }
+  
 }
 

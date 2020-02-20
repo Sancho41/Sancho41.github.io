@@ -5,5 +5,24 @@ var converter = new showdown.Converter();
 axios.get("README.md").then(function(e) {
   var html = converter.makeHtml(e.data);
   printView.innerHTML = html;
-  window.print()
+  if (window.location.hash === "#print")
+    callPrint();
 });
+
+function callPrint() {
+  var imgs = document.images,
+    len = imgs.length,
+    counter = 0;
+
+  [].forEach.call(imgs, function(img) {
+    if (img.complete) incrementCounter();
+    else img.addEventListener("load", incrementCounter, false);
+  });
+
+  function incrementCounter() {
+    counter++;
+    if (counter === len) {
+      window.print();
+    }
+  }
+}
