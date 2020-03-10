@@ -41,7 +41,7 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
     - Estagiário no suporte técnico dos laboratórios da universidade:
         - Instalação de diversos softwares e resolução de inúmeros problemas de perfomance.
 
-- **2019/09 – Presente | Fundação Banco do Brasil**
+- **2019/09 – 2020/03 | Fundação Banco do Brasil**
     - Estagiário na Gerência de Tecnologia:
         - Atendimento a suporte relativo ao próprio sistema interno;
         - Manutenções preventivas e evolutivas no sistema interno de gerenciamento de projetos sociais (Laravel, Vue.js).
