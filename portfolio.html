@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,10 @@
     <title>Gabriel Sancho</title>
 
     <link rel="icon" href="favicon.ico" />
-    
+
     <meta property="og:title" content="Gabriel Sancho - Desenvolvedor" />
-    <meta property="og:description" content="Olá, meu nome é Gabriel Sancho e tenho 20 anos. Atualmente estou cursando ciência da computação..." />
+    <meta property="og:description"
+        content="Olá, meu nome é Gabriel Sancho e tenho 20 anos. Atualmente estou cursando ciência da computação..." />
     <meta property="og:url" content="http://gabrielsancho.net/" />
     <meta property="og:image" content="http://gabrielsancho.net/assets/img/profile.jpg" />
 
@@ -21,6 +22,7 @@
     <meta name="theme-color" content="#1abc9c" />
 
 </head>
+
 <body>
 
     <div id="app" class="main">
@@ -34,7 +36,8 @@
             <small>{{ section.description }}</small>
             <div class="card--container">
 
-                <div @click="openModal(`${sectionId}-${cardId}`)" v-for="(card, cardId) in section.items"  class="card card--modal">
+                <div @click="openModal(`${sectionId}-${cardId}`)" v-for="(card, cardId) in section.items"
+                    class="card card--modal">
                     <h2>{{ card.title }}</h2>
                     <small>{{ card.description }}</small>
                     <img :src="card.mainPicture" alt="">
@@ -47,8 +50,8 @@
                                     <h1>{{ card.title }}</h1>
                                 </div>
                                 <div class="modal--body">
-                                    
-                
+
+
                                     <div class="info page-active">
                                         <ul>
                                             <li v-for="(info, index) in card.info">
@@ -57,18 +60,22 @@
                                             </li>
                                         </ul>
 
-                                        <a class="btn" target="_blank" :href="card.href">Visualizar</a>
+                                        <div class="modal--footer">
+                                            <a class="btn" target="_blank" :href="card.href">Visualizar</a>
+                                            <a v-if="card.repo" class="btn" target="_blank"
+                                                :href="card.repo">Repositório</a>
+                                        </div>
                                     </div>
-                                   
 
-                
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                
+
 
             </div>
         </section>
@@ -78,14 +85,14 @@
     <script src="assets/js/axios.js"></script>
 
     <script>
-        let vm = new Vue ({
+        let vm = new Vue({
             el: '#app',
-            data () {
+            data() {
                 return {
                     data: {}
                 }
             },
-            created () {
+            created() {
                 let main = document.querySelector(".main");
                 main.classList.add("show");
 
@@ -96,7 +103,7 @@
             },
 
             methods: {
-                openModal (id) {
+                openModal(id) {
                     let modal = document.querySelector(`#modal-${id}`).childNodes[0];
 
                     modal = modal.cloneNode(true);
@@ -109,29 +116,30 @@
                         modal.classList.add("show");
                         modal.addEventListener('click', this.closeModal);
                     }, 100)
-                    
-                    
+
+
                 },
 
-                closeModal (e) {
-                    if(e.target.classList.contains('close')){
+                closeModal(e) {
+                    if (e.target.classList.contains('close')) {
                         let modalDone = document.querySelectorAll('.modal');
                         modalDone.forEach(el => {
-                            if (el.classList.contains('show')){
+                            if (el.classList.contains('show')) {
                                 el.classList.remove("show");
                                 setTimeout(() => {
                                     el.remove()
                                 }, 100)
                             }
                         })
-                            
+
                     }
-                    
+
                 },
             }
         })
     </script>
 
-    
+
 </body>
+
 </html>
