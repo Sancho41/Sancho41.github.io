@@ -12,7 +12,7 @@
 ___
 
 ## Perfil 
-Olá, meu nome é Gabriel Sancho e tenho 20 anos. Atualmente estou cursando ciência da computação.
+Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação.
 Tenho facilidade em aprender, e repassar conhecimento. Sou familiarizado com trabalho em equipe e tenho facilidade em resolver problemas.
 Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas experientes.
 
