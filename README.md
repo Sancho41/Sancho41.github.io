@@ -65,7 +65,7 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
   - Desenvolvimento WEB avançado (HTML, CSS3, Javascript), criação de layouts totalmente responsivo utilizando ou não frameworks de estilização;
   - Desenvolvimento básico de API’s Restfull utilizando as frameworks Django e Django Rest em python 3.7;
   - Desenvolvimento de aplicações web em PHP utilizando a framework Laravel em conjunto com a framework de frontend Vue.js;
-  - Conhecimento básico de C++.
+  - Conhecimentos das linguagens C e C++.
   
 <img src="assets/img/qrcode.png" width="150" align="right"></img>
 ### Idiomas:
