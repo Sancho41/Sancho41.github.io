@@ -61,7 +61,7 @@
                                         </ul>
 
                                         <div class="modal--footer">
-                                            <a class="btn" target="_blank" :href="card.href">Visualizar</a>
+                                            <a class="btn" target="_blank" rel="noopener" :href="card.href">Visualizar</a>
                                             <a v-if="card.repo" class="btn" target="_blank"
                                                 :href="card.repo">Repositório</a>
                                         </div>
@@ -85,7 +85,7 @@
     <script src="assets/js/axios.js"></script>
 
     <script>
-        let vm = new Vue({
+        const vm = new Vue({
             el: '#app',
             data() {
                 return {
@@ -93,7 +93,7 @@
                 }
             },
             created() {
-                let main = document.querySelector(".main");
+                const main = document.querySelector(".main");
                 main.classList.add("show");
 
                 axios.get("portfolio.json")
