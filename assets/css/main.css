@@ -81,6 +81,7 @@ a {
     box-shadow: var(--shadow-1);
     transition: var(--transition);
     margin: 5px;
+    text-align: center;
 }
 
 .btn:hover {
