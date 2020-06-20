@@ -65,13 +65,12 @@
                                         </ul>
 
                                         <div class="modal--footer">
-                                            <a class="btn" target="_blank" rel="noopener" :href="card.href">Visualizar</a>
+                                            <a v-if="card.href" class="btn" target="_blank" rel="noopener"
+                                                :href="card.href">Visualizar</a>
                                             <a v-if="card.repo" class="btn" target="_blank"
                                                 :href="card.repo">Repositório</a>
                                         </div>
                                     </div>
-
-
 
                                 </div>
                             </div>
