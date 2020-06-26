@@ -33,7 +33,8 @@
           "Objetivo": "Tornar os cálculos das notas de fim de semestres dos alunos do IESB mais simples."
         },
         "href": "https://Sancho41.github.io/calculadora_iesb/",
-        "repo": "https://github.com/Sancho41/calculadora_iesb"
+        "repo": "https://github.com/Sancho41/calculadora_iesb",
+        "mainPicture": "/assets/img/calculadora_iesb.png"
       }
     ]
   },
