@@ -24,6 +24,16 @@
         "href": "https://Sancho41.github.io/landing_pages/studio_shalom/",
         "repo": "https://github.com/Sancho41/landing_pages/tree/master/studio_shalom",
         "mainPicture": "https://Sancho41.github.io/landing_pages/studio_shalom/main.webp"
+      },
+      {
+        "title": "Calculadora IESB",
+        "description": "Calculadora de médias do IESB.",
+        "info": {
+          "Descrição": "Página feita utilizando um single file Vue.js.",
+          "Objetivo": "Tornar os cálculos das notas de fim de semestres dos alunos do IESB mais simples."
+        },
+        "href": "https://Sancho41.github.io/calculadora_iesb/",
+        "repo": "https://github.com/Sancho41/calculadora_iesb"
       }
     ]
   },
