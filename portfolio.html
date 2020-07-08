@@ -44,7 +44,9 @@
                     class="card card--modal">
                     <h2>{{ card.title }}</h2>
                     <small>{{ card.description }}</small>
-                    <img :src="card.mainPicture" alt="">
+                    <div class="img-container">
+                        <img :src="card.mainPicture" alt="">
+                    </div>
 
                     <div :id="`modal-${sectionId}-${cardId}`" class="modal--template" style="display: none">
                         <div class="modal close">

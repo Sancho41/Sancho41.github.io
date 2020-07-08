@@ -35,6 +35,17 @@
         "href": "https://Sancho41.github.io/calculadora_iesb/",
         "repo": "https://github.com/Sancho41/calculadora_iesb",
         "mainPicture": "/assets/img/calculadora_iesb.png"
+      },
+      {
+        "title": "EscreveAí",
+        "description": "Projeto de anotações utilizando JAVA e JAVASCRIPT.",
+        "info": {
+          "Descrição": "Este é um projeto utilizando Java e Javascript de um sistemas de notas de lembretes que foi feito um deploy no heroku.",
+          "Objetivo": "Estudo e aprendizado de trabalhos com JAVA utilizando suas bibliotecas, como Jersey e Hibernate."
+        },
+        "href": "https://java-notes-sancho.herokuapp.com/",
+        "repo": "https://github.com/Sancho41/java-notes",
+        "mainPicture": "/assets/img/escreveai.png"
       }
     ]
   },
