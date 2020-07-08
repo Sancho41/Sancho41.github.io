@@ -3,7 +3,7 @@
 
 <img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
 **Idade:** 21 anos<br>
-**Cidade:** Riacho Fundo 1<br>
+**Residência:** Riacho Fundo 1 - Distrito Federal - Brasil<br>
 **Email:** gabriel.sancho13@gmail.com<br>
 **Celular:** (61) 9 8331 - 6388<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
