@@ -60,7 +60,8 @@
           "Descrição": "Simulador de uma máquina de turing programável desenvolvida em C.",
           "Objetivos": "Este simulador foi desenvolvido com o intuito de aprimorar conhecimentos sobre computação e estruturas de dados. Com ela é possível escrever um programa que poderá ser interpretado. O objetivo principal desse projeto foi desenvolver um programa para essa máquina que fosse possível validar a sintaxe de um código escrito em C."
         },
-        "repo": "https://github.com/Sancho41/maquina_de_turing"
+        "repo": "https://github.com/Sancho41/maquina_de_turing",
+        "mainPicture": "/assets/img/maquina_de_turing.png"
       }
     ]
   }
