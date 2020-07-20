@@ -12,7 +12,7 @@
         },
         "href": "https://Sancho41.github.io/landing_pages/landing_page_1/",
         "repo": "https://github.com/Sancho41/landing_pages/tree/master/landing_page_1",
-        "mainPicture": "https://Sancho41.github.io/landing_pages/landing_page_1/main.webp"
+        "mainPicture": "https://raw.githubusercontent.com/Sancho41/landing_pages/master/landing_page_1/main.webp"
       },
       {
         "title": "Studio Shalom",
@@ -23,7 +23,7 @@
         },
         "href": "https://Sancho41.github.io/landing_pages/studio_shalom/",
         "repo": "https://github.com/Sancho41/landing_pages/tree/master/studio_shalom",
-        "mainPicture": "https://Sancho41.github.io/landing_pages/studio_shalom/main.webp"
+        "mainPicture": "https://raw.githubusercontent.com/Sancho41/landing_pages/master/studio_shalom/main.webp"
       },
       {
         "title": "Calculadora IESB",
