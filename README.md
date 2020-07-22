@@ -8,31 +8,28 @@
 **Celular:** (61) 9 8331 - 6388<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
 **GitHub:** [Sancho41](https://github.com/Sancho41)<br>
+**Portifólio:** [gabrielsancho.dev](https://gabrielsancho.dev)
+
+---
+
+## Habilidades e interesses pessoais
+
+## Habilidades:
+  - Desenvolvimento **WEB** avançado (**HTML**, **CSS3**, **Javascript**), criação de layouts totalmente responsivo utilizando ou não frameworks de estilização;
+  - Desenvolvimento de API’s Restfull utilizando as frameworks **Django** e **Django Rest** em **Python 3**;
+  - Desenvolvimento **JAVA** de aplicações Rest utilizando JAX-RS e Jersey.
+  - Desenvolvimento de aplicações web em **PHP** utilizando a framework **Laravel** em conjunto com a framework de frontend **Vue.js**;
+  - Desenvolvimento de aplicações **Node.js** em conjunto com **MongoDB**
+  - Conhecimentos das linguagens **C** e **C++**.
+
+### Projetos Paralelos:
+  - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.dev/) contendo alguns projetos de criação própria;
+
+### Idiomas:
+  - Inglês Avançado
+    - Formado em inglês pela instituição **Inglês Athos**.
 
 ___
-
-## Perfil 
-Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação.
-Tenho facilidade em aprender, e repassar conhecimento. Sou familiarizado com trabalho em equipe e tenho facilidade em resolver problemas.
-Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas experientes.
-
----
-
-## Formação acadêmica
-- **2019/02 – Presente | Instituição de Ensino Superior de Brasília (IESB) – Ciência da Computação**
-    - Empenho acadêmico com objetivo de especialização em área de conhecimento prévio e obtênção de título;
-    - Participação em atividades de extenção;
-    - Adquirindo experiência em programação competitiva, tendo participado da Maratona de Programação de 2019 ficando em primeiro lugar entre as equipes do IESB, e oitavo lugar na classificação regional.
-
-- **2017/01 – 2020/06 | Alura – Plataforma de cursos online**
-    - Cursadas algumas tecnologias de aplicações práticas para o desenvolvimento pessoal e para aumentar conhecimentos na área de interesse;
-    - Tecnologias essas tais como conceito e aplicação do protocolo HTTP, estruturação de OO em PHP junto com a interação com um banco de dados via MySQL e o estudo de Web Design Responsivo com o objetivo de melhorar a experiência do usuário
-    - Desenvolvimento *JAVA*, conceitos de orientação a objetos, herança e interface, exeções e Collections. Conhecimentos em JAX-RS e Jersey.
-
-- **2015/07 – 2017/07 | Escola Técnica de Brasília (ETB) – Técnico em informática**
-    - Cursada de maneira prática métodos de criação e documentação de projetos, manutenção de microcomputadores, lógica e desenvolvimento de algorítimos orientados a objetos e estrutura de lógica MVC (Modelo Visão e Controle)..
-
----
 
 ## Experiência
 - **2019/09 – 2020/03 | Fundação Banco do Brasil**
@@ -60,19 +57,24 @@ Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas 
 
 ---  
 
-## Habilidades e interesses pessoais
-### Projetos Paralelos:
-  - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.dev/) contendo alguns projetos de criação própria;
-### Habilidades:
-  - Desenvolvimento WEB avançado (HTML, CSS3, Javascript), criação de layouts totalmente responsivo utilizando ou não frameworks de estilização;
-  - Desenvolvimento de API’s Restfull utilizando as frameworks Django e Django Rest em python 3.7;
-  - Desenvolvimento de aplicações Rest utilizando JAX-RS e Jersey.
-  - Desenvolvimento de aplicações web em PHP utilizando a framework Laravel em conjunto com a framework de frontend Vue.js;
-  - Conhecimentos das linguagens C e C++.
+## Formação acadêmica
+- **2019/02 – Presente | Instituição de Ensino Superior de Brasília (IESB) – Ciência da Computação**
+    - Empenho acadêmico com objetivo de especialização em área de conhecimento prévio e obtênção de título;
+    - Participação em atividades de extenção;
+    - Adquirindo experiência em programação competitiva, tendo participado da Maratona de Programação de 2019 ficando em primeiro lugar entre as equipes do IESB, e oitavo lugar na classificação regional.
+
+- **2017/01 – 2020/06 | Alura – Plataforma de cursos online**
+    - Cursadas algumas tecnologias de aplicações práticas para o desenvolvimento pessoal e para aumentar conhecimentos na área de interesse;
+    - Tecnologias essas tais como conceito e aplicação do protocolo HTTP, estruturação de OO em PHP junto com a interação com um banco de dados via MySQL e o estudo de Web Design Responsivo com o objetivo de melhorar a experiência do usuário
+    - Desenvolvimento *JAVA*, conceitos de orientação a objetos, herança e interface, exeções e Collections. Conhecimentos em JAX-RS e Jersey.
+
+- **2015/07 – 2017/07 | Escola Técnica de Brasília (ETB) – Técnico em informática**
+    - Cursada de maneira prática métodos de criação e documentação de projetos, manutenção de microcomputadores, lógica e desenvolvimento de algorítimos orientados a objetos e estrutura de lógica MVC (Modelo Visão e Controle)..
   
-<img src="assets/img/qrcode.png" width="150" align="right"></img>
-### Idiomas:
-  - Inglês Avançado
-    - Formado em inglês pela instituição **Inglês Athos**.
+---
 
-
+<img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
+## Perfil 
+Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação.
+Tenho facilidade em aprender, e repassar conhecimento. Sou familiarizado com trabalho em equipe e tenho facilidade em resolver problemas.
+Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas experientes.
