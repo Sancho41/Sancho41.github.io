@@ -24,6 +24,9 @@
 
 ### Projetos Paralelos:
   - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.dev/) contendo alguns projetos de criação própria;
+  - Api para sistema de lembretes feito em **JAVA** com Frontend feito em **Vue.js**. 
+    - Link para o live demo: https://java-notes-sancho.herokuapp.com/
+    - Link para o repositório: https://github.com/Sancho41/java-notes
 
 ### Idiomas:
   - Inglês Avançado
