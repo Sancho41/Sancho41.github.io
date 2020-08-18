@@ -24,6 +24,17 @@
         "href": "https://java-notes-sancho.herokuapp.com/",
         "repo": "https://github.com/Sancho41/java-notes",
         "mainPicture": "/assets/img/escreveai.png"
+      },
+      {
+        "title": "Sad but happy Geek",
+        "description": "Desafio de Frontend SPA",
+        "info": {
+          "Descrição": "Uma SPA(Single page aplication) que tem emoções.",
+          "Objetivo": "Um desafio proposto para poder mostrar meus conhecimentos no desenvolvimento de aplicações fronted utilizando Vue.js. Mais informações sobre o desafio no README.md do repositório."
+        },
+        "href": "https://gabrielsancho.dev/sad_but_happy_geek/",
+        "repo": "https://github.com/Sancho41/sad_but_happy_geek",
+        "mainPicture": "/assets/img/sad_but_happy_geek.png"
       }
     ]
   },
