@@ -56,5 +56,5 @@ ___
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
 ## About Me 
 
-Hi, my name is Gabriel Sancho, I'm a Computer Science student, currently workins as a Freelancer. I have been working as Intern for the past year helping companies to automate processes. That time, I have been working for Banco do Brasil (Government Banking) and the unversity that I'm currently studying (IESB), automating processes and providing thecnical support to applications and systems.
+Hi, my name is Gabriel Sancho, I'm a Computer Science student, currently working as a Freelancer. I have been working as Intern for the past year helping companies to automate processes. That time, I have been working for Banco do Brasil (Government Banking) and the unversity that I'm currently studying (IESB), automating processes and providing thecnical support to applications and systems.
 I already built, as personal projects and freelances, web and backend projects using many technologies such as **Java**, **Typescript** and **Javascript**, **Docker**, **MongoDB**, **PHP**, **Flutter**, **ReactJs** and **C**.
