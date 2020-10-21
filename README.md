@@ -1,83 +1,55 @@
-[Imprima este currículo](https://Sancho41.github.io/curriculum.html#print)
+[Print this resume](https://Sancho41.github.io/curriculum.html#print)
 # Gabriel Sancho Cavalcanti dos Santos
 
 <img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
-**Idade:** 21 anos<br>
-**Residência:** Riacho Fundo 1 - Distrito Federal - Brasil<br>
+**Age:** 22<br>
+**Address:** Riacho Fundo 1 - Federal Disctrict - Brazil<br>
 **Email:** gabriel.sancho13@gmail.com<br>
-**Celular:** (61) 9 8331 - 6388<br>
+**Phone/Whatsapp:** +55 (61) 9 8331 - 6388<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
 **GitHub:** [Sancho41](https://github.com/Sancho41)<br>
-**Portifólio:** [gabrielsancho.dev](https://gabrielsancho.dev)
+**Portifolio:** [gabrielsancho.dev](https://gabrielsancho.dev)
 
 ---
 
-## Habilidades e interesses pessoais
+## Skills:
+  - Backend development using **Java** (JAX-RS and Jersey), **Python** (Django, Django Rest), **PHP** (Laravel), **Javascript/Typescript** (Express).
+  - Frontend development web (**HTML**, **CSS3**, **Javascript**), creation of fully responsive layouts without frameworks and using frameworks such as **Vue.js**, **Nuxt.js**, **ReactJS**, **Bootstrap**, **JQuery**.
+  - Database skills **MongoDB**, **MySql**, **Sql Server**.
+  - Knowledge in **C** and **C++**.
+---
 
-## Habilidades:
-  - Desenvolvimento **WEB** avançado (**HTML**, **CSS3**, **Javascript**), criação de layouts totalmente responsivo utilizando ou não frameworks de estilização;
-  - Desenvolvimento de API’s Restfull utilizando as frameworks **Django** e **Django Rest** em **Python 3**;
-  - Desenvolvimento **JAVA** de aplicações Rest utilizando JAX-RS e Jersey.
-  - Desenvolvimento de aplicações web em **PHP** utilizando a framework **Laravel** em conjunto com a framework de frontend **Vue.js**;
-  - Desenvolvimento de aplicações **Node.js** em conjunto com **MongoDB**
-  - Conhecimentos das linguagens **C** e **C++**.
-
-### Projetos Paralelos:
-  - Criação de porta-fólio em HTML5, CSS3 e Javascript (https://gabrielsancho.dev/) contendo alguns projetos de criação própria;
-  - Api para sistema de lembretes feito em **JAVA** com Frontend feito em **Vue.js**. 
-    - Link para o live demo: https://java-notes-sancho.herokuapp.com/
-    - Link para o repositório: https://github.com/Sancho41/java-notes
-
-### Idiomas:
-  - Inglês Avançado
-    - Formado em inglês pela instituição **Inglês Athos**.
-
-___
-
-## Experiência
-- **2019/09 – 2020/03 | Fundação Banco do Brasil**
-    - Estagiário na Gerência de Tecnologia:
-        - Atendimento a suporte relativo ao próprio sistema interno;
-        - Manutenções preventivas e evolutivas no sistema interno de gerenciamento de projetos sociais (Laravel, Vue.js).
+## Experience
+- **2019/09 – 2020/03 | Banco do Brasil Foundation**
+    - Intern at Technology Management:
+      - Providing technical support to an internal system;
+      - Preventive and evolutive maintenance of the internal system of social projects manager (Laravel, Vue.js).
+      - Woked on a script that fixed inconsistencies between two databases.
 
 - **2019/07 – 2019/09 | Instituto de Ensino Superior de Brasília (IESB)**
-    - Estagiário no suporte técnico dos laboratórios da universidade:
-        - Instalação de diversos softwares e resolução de inúmeros problemas de perfomance.
-
-- **2018/08 – 2019/04 | Gs.DATA**
-    - Estagiário na área de suporte técnico trabalhando diretamente com o cliente:
-      - Conhecimentos de aplicação de serviços e interação direta como o usuário/cliente.
-
+    - Technical support intern:
+      - Woked on a script that automated the software installation process on all computers in a lab.
 ---
 
-## Atividades de Aperfeiçoamento
+## Education
+- **2019/02 – Current | Computer Science - Instituição de Ensino Superior de Brasília (IESB)**
 
-- Participação maratonas de programação:
-    - 2019/1° Semestre – Maratona interna IESB;
-    - 2019/1° Semestre – Maratona regional (1° lugar entre as equipes do IESB, classificado para a etapa nacional).
-
-- Introdução a programação de Arduinos (IESB).
-
----  
-
-## Formação acadêmica
-- **2019/02 – Presente | Instituição de Ensino Superior de Brasília (IESB) – Ciência da Computação**
-    - Empenho acadêmico com objetivo de especialização em área de conhecimento prévio e obtênção de título;
-    - Participação em atividades de extenção;
-    - Adquirindo experiência em programação competitiva, tendo participado da Maratona de Programação de 2019 ficando em primeiro lugar entre as equipes do IESB, e oitavo lugar na classificação regional.
-
-- **2017/01 – 2020/06 | Alura – Plataforma de cursos online**
-    - Cursadas algumas tecnologias de aplicações práticas para o desenvolvimento pessoal e para aumentar conhecimentos na área de interesse;
-    - Tecnologias essas tais como conceito e aplicação do protocolo HTTP, estruturação de OO em PHP junto com a interação com um banco de dados via MySQL e o estudo de Web Design Responsivo com o objetivo de melhorar a experiência do usuário
-    - Desenvolvimento *JAVA*, conceitos de orientação a objetos, herança e interface, exeções e Collections. Conhecimentos em JAX-RS e Jersey.
-
-- **2015/07 – 2017/07 | Escola Técnica de Brasília (ETB) – Técnico em informática**
-    - Cursada de maneira prática métodos de criação e documentação de projetos, manutenção de microcomputadores, lógica e desenvolvimento de algorítimos orientados a objetos e estrutura de lógica MVC (Modelo Visão e Controle)..
-  
+- **2015/07 – 2017/07 | Computer Technician - Escola Técnica de Brasília (ETB)**
 ---
+
+## Others Activities
+- Participation in programming marathons:
+    - 2019/1° Semester – Internal marathon at university IESB;
+    - 2019/1° Semester – Regional marathon (1° place at unversity, classification for the national stage).
+---
+
+## Languages
+  - Portuguese (Native)
+  - English (Fluent)
+___
 
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
-## Perfil 
-Olá, meu nome é Gabriel Sancho e tenho 21 anos. Atualmente estou cursando ciência da computação.
-Tenho facilidade em aprender, e repassar conhecimento. Sou familiarizado com trabalho em equipe e tenho facilidade em resolver problemas.
-Sou uma pessoa tranquila no geral e sempre disposto a aprender mais com pessoas experientes.
+## About Me 
+
+Hi, my name is Gabriel Sancho, I'm a Computer Science student, currently workins as a Freelancer. I have been working as Intern for the past year helping companies to automate processes. That time, I have been working for Banco do Brasil (Government Banking) and the unversity that I'm currently studying (IESB), automating processes and providing thecnical support to applications and systems.
+I already built, as personal projects and freelances, web and backend projects using many technologies such as **Java**, **Typescript** and **Javascript**, **Docker**, **MongoDB**, **PHP**, **Flutter**, **ReactJs** and **C**.
