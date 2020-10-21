@@ -18,6 +18,7 @@
   - Habilidades com banco de dados **MongoDB**, **MySql**, **Sql Server**.
 
   - Conhecimentos em **C** e **C++**.
+
 ---
 
 ## Experiência
@@ -30,23 +31,27 @@
 - **2019/07 – 2019/09 | Instituto de Ensino Superior de Brasília (IESB)**
     - Estagiário no suporte técnico:
       - Criação de um script que automatizou o processo de instalação de software em todos os computadores de um laboratório
+
 ---
 
 ## Educação
 - **2019/02 – Current | Ciência da computação - Instituição de Ensino Superior de Brasília (IESB)**
 
 - **2015/07 – 2017/07 | Técnico em informática - Escola Técnica de Brasília (ETB)**
+
 ---
 
 ## Outras atividades
 - Participação em maratonas de programação:
     - 2019/1° Semestre – Maratona interna IESB;
     - 2019/1° Semestre – Maratona regional (1° lugar entre as equipes do IESB, classificado para a etapa nacional).
+  
 ---
 
 ## Idiomas
   - Português (Nativo)
   - Inglês (Fluente)
+
 ___
 
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>

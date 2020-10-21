@@ -17,6 +17,7 @@
   - Frontend development web (**HTML**, **CSS3**, **Javascript**), creation of fully responsive layouts without frameworks and using frameworks such as **Vue.js**, **Nuxt.js**, **ReactJS**, **Bootstrap**, **JQuery**.
   - Database skills **MongoDB**, **MySql**, **Sql Server**.
   - Knowledge in **C** and **C++**.
+
 ---
 
 ## Experience
@@ -29,23 +30,27 @@
 - **2019/07 – 2019/09 | Instituto de Ensino Superior de Brasília (IESB)**
     - Technical support intern:
       - Woked on a script that automated the software installation process on all computers in a lab.
+
 ---
 
 ## Education
 - **2019/02 – Current | Computer Science - Instituição de Ensino Superior de Brasília (IESB)**
 
 - **2015/07 – 2017/07 | Computer Technician - Escola Técnica de Brasília (ETB)**
+
 ---
 
 ## Others Activities
 - Participation in programming marathons:
     - 2019/1° Semester – Internal marathon at university IESB;
     - 2019/1° Semester – Regional marathon (1° place at unversity, classification for the national stage).
+
 ---
 
 ## Languages
   - Portuguese (Native)
   - English (Fluent)
+
 ___
 
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
