@@ -1,4 +1,4 @@
-[Imprima este currículo](https://Sancho41.github.io/curriculum.html#print)
+[Imprima este currículo](https://Sancho41.github.io/curriculum_pt.html#print)
 # Gabriel Sancho Cavalcanti dos Santos
 
 <img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
@@ -22,6 +22,11 @@
 ---
 
 ## Experiência
+- **2020/11 - Current | Stefanini It Solutions**
+    - Desenvolvedor Júnior:
+        - Criação e manutenção de aplicações WEB feitos em JAVA e Angular;
+        - Desenvolvimento de Framework de componentes para Angular.
+
 - **2019/09 – 2020/03 | Banco do Brasil Foundation**
     - Estagiário na Gerência de Tecnologia:
       - Atentimento a suporte técnico para o sistem interno;

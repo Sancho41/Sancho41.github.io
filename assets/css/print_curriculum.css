@@ -67,6 +67,7 @@ img {
   transition: var(--transition);
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:hover {

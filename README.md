@@ -21,6 +21,11 @@
 ---
 
 ## Experience
+- **2020/11 - Current | Stefanini It Solutions**
+    - Júnior Developer:
+        - Worked on WEB aplications using JAVA and Angular;
+        - Worked on a components Framework for Angular.
+
 - **2019/09 – 2020/03 | Banco do Brasil Foundation**
     - Intern at Technology Management:
       - Providing technical support to an internal system;
