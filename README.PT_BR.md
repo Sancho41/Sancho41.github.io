@@ -23,10 +23,10 @@
 
 ## Experiência
 - **2021/03 - Atualmente | Sicoob**
-  - Desenvolvedor Júnior:
-    - Criação e manutenção de microoserviços Java com Springboot;
-    - Desenvolvimento de aplicativos mobile Android com java e kotlin;
-    - Participação nas definições de arquitetura no desenvolvimento de aplicativos mobile.
+    - Desenvolvedor Júnior:
+        - Criação e manutenção de microoserviços Java com Springboot;
+        - Desenvolvimento de aplicativos mobile Android com java e kotlin;
+        - Participação nas definições de arquitetura no desenvolvimento de aplicativos mobile.
 
 - **2020/11 - 2021/02 | Stefanini It Solutions**
     - Desenvolvedor Júnior:
@@ -35,13 +35,13 @@
 
 - **2019/09 – 2020/03 | Banco do Brasil Foundation**
     - Estagiário na Gerência de Tecnologia:
-      - Atentimento a suporte técnico para o sistem interno;
-      - Manutenções preventivas e evolutivas no sistema interno de gerenciamento de projetos sociais (Laravel, Vue.js).
-      - Criação de um script que concertava inconcistências entre dois bancos de dados.
+        - Atentimento a suporte técnico para o sistem interno;
+        - Manutenções preventivas e evolutivas no sistema interno de gerenciamento de projetos sociais (Laravel, Vue.js).
+        - Criação de um script que concertava inconcistências entre dois bancos de dados.
 
 - **2019/07 – 2019/09 | Instituto de Ensino Superior de Brasília (IESB)**
     - Estagiário no suporte técnico:
-      - Criação de um script que automatizou o processo de instalação de software em todos os computadores de um laboratório
+        - Criação de um script que automatizou o processo de instalação de software em todos os computadores de um laboratório
 
 ---
 
@@ -68,4 +68,4 @@ ___
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
 ## Perfil 
 
-Olá, meu nome é Gabriel Sancho, sou um estudante de Ciência da Computação, atualmente trabalhando desenvolvedor android. Tenho trabalhado em aplicativos legados utilizando Java e novos aplicativos utilizando Kotlin e as tecnologias mais recentes da plataforma.
+Olá, meu nome é Gabriel Sancho, sou um estudante de Ciência da Computação, atualmente trabalhando como desenvolvedor android. Tenho trabalhado em aplicativos legados utilizando Java e novos aplicativos utilizando Kotlin e as tecnologias mais recentes da plataforma.
