@@ -2,8 +2,8 @@
 # Gabriel Sancho Cavalcanti dos Santos
 
 <img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
-**Idade:** 22<br>
-**Endereço:** Riacho Fundo 1 - Distrito Federal - Brasil<br>
+**Idade:** 23<br>
+**Endereço:** Águas Claras - Distrito Federal - Brasil<br>
 **Email:** gabriel.sancho13@gmail.com<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
 **GitHub:** [Sancho41](https://github.com/Sancho41)<br>
@@ -12,16 +12,23 @@
 ---
 
 ## Habilidades:
+  - Desenvolvimento mobile Android nativo utilizando **Java** ou **Kotlin**.
   - Desenvolvimento backend utilizando **Java** (JAX-RS and Jersey), **Python** (Django, Django Rest), **PHP** (Laravel) e **Javascript/Typescript** (Express).
   - Desenvolvimento frontend web (**HTML**, **CSS3**, **Javascript**), criação de designes totalmente responsivos sem frameworks e utilizando frameworks como **Vue.js**, **Nuxt.js**, **ReactJS**, **Bootstrap** e **JQuery**.
   - Habilidades com banco de dados **MongoDB**, **MySql**, **Sql Server**.
-
   - Conhecimentos em **C** e **C++**.
+  - Conhecimentos sobre arquitetura de software e padrões de projetos no geral.
 
 ---
 
 ## Experiência
-- **2020/11 - Current | Stefanini It Solutions**
+- **2021/03 - Atualmente | Sicoob**
+  - Desenvolvedor Júnior:
+    - Criação e manutenção de microoserviços Java com Springboot;
+    - Desenvolvimento de aplicativos mobile Android com java e kotlin;
+    - Participação nas definições de arquitetura no desenvolvimento de aplicativos mobile.
+
+- **2020/11 - 2021/02 | Stefanini It Solutions**
     - Desenvolvedor Júnior:
         - Criação e manutenção de aplicações WEB feitos em JAVA e Angular;
         - Desenvolvimento de Framework de componentes para Angular.
@@ -39,7 +46,7 @@
 ---
 
 ## Educação
-- **2019/02 – Current | Ciência da computação - Instituição de Ensino Superior de Brasília (IESB)**
+- **2019/02 – Atualmente | Ciência da computação - Instituição de Ensino Superior de Brasília (IESB)**
 
 - **2015/07 – 2017/07 | Técnico em informática - Escola Técnica de Brasília (ETB)**
 
@@ -61,5 +68,4 @@ ___
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
 ## Perfil 
 
-Olá, meu nome é Gabriel Sancho, sou um estudante de Ciência da Computação, atualmente trabalhando como freelancer. Tenho trabalhado como estagiário no ano passado ajudando empresas a automatizar processos. No tempo, trabalhei para o Banco do Brasil e para a universidade que estou atualmente estudando, automatizando processos e fornecendo suporte técnico à aplicações e sistemas.
-Já construi, como projeto pessoal e freelances, projetos web e backend utilizando várias tecnologias como **Java**, **Typescript** e **Javascript**, **Docker**, **MongoDB**, **PHP**, **Flutter**, **ReactJs** e **C**.
+Olá, meu nome é Gabriel Sancho, sou um estudante de Ciência da Computação, atualmente trabalhando desenvolvedor android. Tenho trabalhado em aplicativos legados utilizando Java e novos aplicativos utilizando Kotlin e as tecnologias mais recentes da plataforma.
