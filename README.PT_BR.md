@@ -24,7 +24,7 @@
 ## Experiência
 - **2021/03 - Atualmente | Sicoob**
     - Desenvolvedor Pleno:
-        - Análize e elaboração de arquitetura modular em aplicativos mobile Android;
+        - Análise e elaboração de arquitetura modular em aplicativos mobile Android;
         - Participação ativa no ciclo de vida de um projeto de grande escala com mais de 300 mil usuários, desde sua idéia até a publicação em produção, e posteriormente sua evolução e manutenção.
     - Desenvolvedor Júnior:
         - Criação e manutenção de microoserviços Java com Springboot;
