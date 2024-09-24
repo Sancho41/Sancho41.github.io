@@ -25,7 +25,10 @@
 - **2021/03 - Atualmente | Sicoob**
     - Desenvolvedor Pleno:
         - Análise e elaboração de arquitetura modular em aplicativos mobile Android;
-        - Participação ativa no ciclo de vida de um projeto de grande escala com mais de 300 mil usuários, desde sua idéia até a publicação em produção, e posteriormente sua evolução e manutenção.
+        - Participação ativa no ciclo de vida de um projeto de grande escala com mais de 300 mil usuários, desde sua ieia até a publicação em produção, e posteriormente sua evolução e manutenção;
+        - Elaboração de mecanismos de tratamento e rastreamento de falhas;
+        - Criação de bibiotecas coorporativas;
+        - Criação de esteira de integração e publicação de aplicativos.
     - Desenvolvedor Júnior:
         - Criação e manutenção de microoserviços Java com Springboot;
         - Desenvolvimento de aplicativos mobile Android com java e kotlin;
