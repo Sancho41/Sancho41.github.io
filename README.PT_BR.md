@@ -1,8 +1,7 @@
-[Imprima este currículo](https://Sancho41.github.io/curriculum_pt.html#print)
+[🖨️ Imprima este currículo](https://Sancho41.github.io/curriculum_pt.html#print)
 # Gabriel Sancho Cavalcanti dos Santos
 
-<img src="https://avatars3.githubusercontent.com/u/26601912?v=4" align="right" width="150"></img>
-**Idade:** 23<br>
+**Idade:** 26<br>
 **Endereço:** Águas Claras - Distrito Federal - Brasil<br>
 **Email:** gabriel.sancho13@gmail.com<br>
 **LinkedIn:** [Gabriel Sancho](https://www.linkedin.com/in/gabriel-sancho-99888a180/)<br>
@@ -12,17 +11,21 @@
 ---
 
 ## Habilidades:
-  - Desenvolvimento mobile Android nativo utilizando **Java** ou **Kotlin**.
-  - Desenvolvimento backend utilizando **Java** (JAX-RS and Jersey), **Python** (Django, Django Rest), **PHP** (Laravel) e **Javascript/Typescript** (Express).
-  - Desenvolvimento frontend web (**HTML**, **CSS3**, **Javascript**), criação de designes totalmente responsivos sem frameworks e utilizando frameworks como **Vue.js**, **Nuxt.js**, **ReactJS**, **Bootstrap** e **JQuery**.
-  - Habilidades com banco de dados **MongoDB**, **MySql**, **Sql Server**.
-  - Conhecimentos em **C** e **C++**.
-  - Conhecimentos sobre arquitetura de software e padrões de projetos no geral.
+  - Desenvolvimento de aplicações Mobile Android, web e backend;
+  - Análise e desenvolvimento de arquiteturas robustas modulares ou monolíticas com potencial de escalabilidade;
+  - Codificação limpa e organizada utilizando de forma coerente padrões de projeto, com o objetivo de claresa e fácil manutenção;
+  - Fluência em **Kotlin** e **Java**;
+  - Conhecimentos em **Python**, **Ruby**, **Dart**, **PHP**, **C** e **C++**;
+  - Conhecimentos em esteiras de integrações e testes automatizados;
+  - Conhecimentos em sistemas de mensagerias e cloud no geral.
 
 ---
 
 ## Experiência
 - **2021/03 - Atualmente | Sicoob**
+    - Desenvolvedor Pleno:
+        - Análize e elaboração de arquitetura modular em aplicativos mobile Android;
+        - Participação ativa no ciclo de vida de um projeto de grande escala com mais de 300 mil usuários, desde sua idéia até a publicação em produção, e posteriormente sua evolução e manutenção.
     - Desenvolvedor Júnior:
         - Criação e manutenção de microoserviços Java com Springboot;
         - Desenvolvimento de aplicativos mobile Android com java e kotlin;
@@ -68,4 +71,4 @@ ___
 <img src="assets/img/qrcode.png" width="150" align="right" style="margin-left: 20px"></img>
 ## Perfil 
 
-Olá, meu nome é Gabriel Sancho, sou um estudante de Ciência da Computação, atualmente trabalhando como desenvolvedor android. Tenho trabalhado em aplicativos legados utilizando Java e novos aplicativos utilizando Kotlin e as tecnologias mais recentes da plataforma.
+Olá, meu nome é Gabriel Sancho. Atualmente especializado no desenvolvimento de aplicativos mobile Android. Sou uma pessoa agradável em ambiente de trabalho e descontraida. Sempre que possível darei minha opinião, e certamente estou aberto a críticas construtivas. Gosto muito de debater assuntos com o objetivo de aprimorar o produto em que trabalho, sempre com levesa e tentado ao máximo chegar na melhor solução possível.
