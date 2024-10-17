@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.cabal.prepago.coopcerto",
+      "sha256_cert_fingerprints":
+        ["0B:13:EA:CE:CD:4B:7E:C3:73:0F:54:CA:3B:26:4E:AB:3A:D8:C6:A2:B0:61:D5:56:B8:70:66:F7:EF:A7:9B:B1"]
+    }
+  }
+]
